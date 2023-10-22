@@ -1,0 +1,47 @@
+.landing_about{
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.landing_about_content{
+  display: grid;
+  align-items: center;
+  grid-template-areas: "one two";
+  justify-content: space-between;
+  gap: 30px;
+}
+.landing_about_img{
+  grid-area: one;
+}
+.landing_about_desc{
+  grid-area: two;
+  position: relative;
+}
+.two_img{
+  position: absolute;
+  bottom: -270px;
+  right: 50px;
+  width: 400px;
+}
+.landing_about_img{
+  width: 769px;
+  position: relative;
+}
+.landing_about_img img:first-child{
+  width: 100%;
+  margin-bottom: 30px;
+}
+.green_round{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.blue_round{
+  position: absolute;
+  top: -200px;
+  right: 150px;
+}
+.red_round{
+  position: absolute;
+  top: -125px;
+  left: 50px;
+}

@@ -1,0 +1,51 @@
+.landing_teacher{
+  padding-top: 150px;
+  padding-bottom: 130px;
+  margin-bottom: 50px;
+}
+.landing_teacher_content{
+  display: grid;
+  grid-template-areas: "wrap1 wrap2";
+  align-items: center;
+  gap: 100px;
+}
+.landing_teacher_desc{
+  width: 600px;
+  grid-area: wrap1;
+  position: relative;
+}
+.landing_teacher_imgs{
+  grid-area: wrap2;
+  display: grid;
+  grid-template-areas: "one two two" 
+  "three two two"
+  "three four five";
+  gap: 12px;
+}
+.landing_teacher_imgs img{
+  width: 100%;
+  height: 100%;
+}
+.landing_teacher_imgs img:nth-child(1){
+  grid-area: one;
+}
+.landing_teacher_imgs img:nth-child(2){
+  grid-area: two;
+}
+.landing_teacher_imgs img:nth-child(3){
+  grid-area: three;
+}
+.landing_teacher_imgs img:nth-child(4){
+  grid-area: four;
+}
+.landing_teacher_imgs img:nth-child(5){
+  grid-area: five;
+}
+.landing_teacher_desc p{
+  margin-bottom: 50px;
+}
+.teacher_extra_logo{
+  position: absolute;
+  bottom: -150px;
+  right: 50px;
+}
