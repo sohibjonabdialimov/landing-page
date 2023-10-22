@@ -14,6 +14,7 @@
 }
 .landing_hero_desc{
   width: 500px;
+  position: relative;
 }
 .landing_hero_desc img:first-child{
   width: 100%;
@@ -42,6 +43,12 @@
   left: 0;
   bottom: 0;
   border-radius: 10px;
+}
+.hero_two_img{
+  position: absolute;
+  bottom: -100px;
+  width: 280px;
+  right: 0;
 }
 .landing_list{
   display: flex;
@@ -115,6 +122,12 @@
   .landing_hero_desc p{
     font-size: 22px;
   }
+  .hero_two_img{
+    position: absolute;
+    bottom: -100px;
+    width: 250px;
+    right: -30px;
+  }
 }
 @media (max-width: 1000px){
   .landing_hero_content{
@@ -125,6 +138,20 @@
   .landing_navbar{
     display: none;
   }
+  .hero_two_img{
+    position: absolute;
+    bottom: -50px;
+    width: 300px;
+    right: -200px;
+  }
+}
+@media (max-width: 850px){
+  .hero_two_img{
+    position: absolute;
+    bottom: -50px;
+    width: 260px;
+    right: -100px;
+  }
 }
 @media (max-width: 800px){
   .landing_hero_desc{
@@ -132,6 +159,12 @@
   }
   .landing_hero_desc img:first-child{
     width: 330px;
+  }
+  .hero_two_img{
+    position: absolute;
+    bottom: -50px;
+    width: 260px;
+    right: 0px;
   }
 }
 @media (max-width: 600px){
@@ -158,5 +191,20 @@
     font-size: 17px;
     font-weight: 700;
     line-height: 20px;
+  }
+ 
+}
+@media (max-width: 600px){
+  .hero_two_img{
+    bottom: 0px;
+    width: 220px;
+    right: -190px;
+  }
+}
+@media (max-width: 500px){
+  .hero_two_img{
+    bottom: -10px;
+    width: 160px;
+    right: -15px;
   }
 }

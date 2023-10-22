@@ -9,6 +9,7 @@ import hero3 from "../../assets/img/hero3.svg";
 import hero4 from "../../assets/img/hero4.svg";
 import hero5 from "../../assets/img/hero5.svg";
 import hero6 from "../../assets/img/hero6.svg";
+import two_img from "../../assets/img/two_img.svg";
 const Hero = () => {
   return (
     <section className="landing_hero landing_card">
@@ -41,6 +42,7 @@ const Hero = () => {
             <button className="common_btn">Boshlash</button>
             <img src={arrow} alt="" />
           </div>
+          <img className="hero_two_img" src={two_img} alt="" />
         </div>
         <div className="landing_hero_imgs">
           <img className="hero_img_1" src={hero1} alt="" />
