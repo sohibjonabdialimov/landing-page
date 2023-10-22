@@ -1,8 +1,8 @@
 import "./App.css";
-import Teacher from "./components/Teacher/Teacher";
 import About from "./components/about/About";
 import Footer from "./components/footer/Footer";
 import Hero from "./components/hero/Hero";
+import Teacher from "./components/teacher/Teacher";
 import Student from "./components/student/Student";
 function App() {
   return (

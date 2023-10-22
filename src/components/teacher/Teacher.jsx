@@ -20,6 +20,7 @@ const Teacher = () => {
             darslardan iborat kurslaringizni platformaga joylashingiz va daromad
             olishingiz mumkin.
           </p>
+          
           <div className="common_btn_wrap">
             <button className="common_btn">O’qituvchi</button>
             <img src={arrow} alt="" />
