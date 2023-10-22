@@ -37,10 +37,10 @@
   line-height: 25px;
   color: rgba(0, 34, 255, 1);
 }
-.landing_footer_bottom span{
+.landing_footer_bottom span {
   font-weight: 800;
 }
-@media (max-width: 1120px){
+@media (max-width: 1120px) {
   .landing_footer_content {
     justify-content: space-between;
     gap: 18px;
@@ -49,52 +49,55 @@
     padding: 80px 30px;
   }
 }
-@media (max-width: 985px){
+@media (max-width: 985px) {
   .landing_footer_content {
-      display: grid;
-      grid-template-columns: auto;
-      grid-template-rows: auto auto auto;
-      align-items: center;
-      justify-content: center;
-      gap: 15px;
-    }
-    .landing_footer_number{
-      justify-self: center;
-    }
-    .landing_footer_logo{
-      justify-self: center;
-    }
-  
-    
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+  }
+  .landing_footer_number {
+    justify-self: center;
+  }
+  .landing_footer_logo {
+    justify-self: center;
+  }
 }
-@media (max-width: 550px){
+@media (max-width: 550px) {
   .landing_footer_content {
-      display: grid;
-      grid-template-columns: auto;
-      grid-template-rows: auto auto auto;
-      align-items: center;
-      justify-content: center;
-      gap: 10px;
-    }
-    .landing_footer_number{
-      justify-self: center;
-    }
-    .landing_footer_logo{
-      justify-self: center;
-    }
-    .landing_footer_logo img{
-      width: 240px;
-    }
-    .landing_footer_content a,  .landing_footer_number p, .landing_footer_bottom{
-      font-size: 12px;
-      font-weight: 600;
-    }
-    .landing_footer {
-      padding: 15px;
-      padding-top: 50px;
-      padding-bottom: 15px;
-    }
-    .landing_footer_middle {
-      gap: 20px;
-    }
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  .landing_footer_number {
+    justify-self: center;
+  }
+  .landing_footer_logo {
+    justify-self: center;
+  }
+  .landing_footer_logo img {
+    width: 240px;
+  }
+  .landing_footer_content a,
+  .landing_footer_number p,
+  .landing_footer_bottom {
+    font-size: 12px;
+    font-weight: 600;
+  }
+  .landing_footer {
+    padding: 15px;
+    padding-top: 0px;
+    padding-bottom: 15px;
+  }
+  .landing_footer_middle {
+    gap: 15px;
+  }
+  .landing_footer_bottom {
+    margin-top: 20px;
+  }
 }

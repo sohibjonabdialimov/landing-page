@@ -38,7 +38,7 @@ const Hero = () => {
             oqilona usulini kashf eting.
           </p>
           <div className="common_btn_wrap">
-            <button className="common_btn">Kirish</button>
+            <button className="common_btn">Boshlash</button>
             <img src={arrow} alt="" />
           </div>
         </div>

@@ -12,6 +12,12 @@
   height: 42px;
   margin-right: 30px;
 }
+.landing_hero_desc{
+  width: 500px;
+}
+.landing_hero_desc img:first-child{
+  width: 100%;
+}
 
 .landing_hero_desc p{
   font-size: 28px;
@@ -55,6 +61,12 @@
   font-size: 20px;
   font-weight: 700;
   line-height: 24px;
+}
+.landing_logo {
+  width: 150px;
+}
+.landing_logo img{
+  width: 100%;
 }
 
 .landing_hero_imgs{
@@ -102,5 +114,49 @@
   }
   .landing_hero_desc p{
     font-size: 22px;
+  }
+}
+@media (max-width: 1000px){
+  .landing_hero_content{
+    flex-direction: column;
+    align-items: normal;
+    gap: 30px;
+  }
+  .landing_navbar{
+    display: none;
+  }
+}
+@media (max-width: 800px){
+  .landing_hero_desc{
+    width: 100%;
+  }
+  .landing_hero_desc img:first-child{
+    width: 330px;
+  }
+}
+@media (max-width: 600px){
+  .login_btn_wrap {
+    width: 107px;
+    height: 29px;
+    margin-right: 00px;
+  }
+  .login_btn_wrap img{
+    width: 5px;
+    height: 9px;
+  }
+  .landing_logo {
+    width: 101px;
+  }
+  .landing_hero_desc{
+    width: 291px;
+  }
+  .landing_hero_subtitle{
+    font-size: 17px;
+    line-height: 20px;
+  }
+  .landing_hero_desc p{
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 20px;
   }
 }

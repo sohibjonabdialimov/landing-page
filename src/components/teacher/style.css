@@ -49,3 +49,45 @@
   bottom: -150px;
   right: 50px;
 }
+@media (max-width: 1000px){
+  .landing_teacher_content{
+    display: grid;
+    grid-template-areas: "wrap1" "wrap2";
+    align-items: center;
+    gap: 90px;
+  }
+  .teacher_extra_logo{
+    position: absolute;
+    bottom: -120px;
+    right: 0px;
+  }
+  .landing_teacher_desc{
+    width: 100%;
+    grid-area: wrap1;
+    position: relative;
+  }
+  .landing_teacher_imgs{
+   width: 100%;
+  }
+  .landing_teacher{
+    padding-top: 150px;
+    padding-bottom: 100px;
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 600px){
+  .landing_teacher_content{
+    gap: 50px;
+  }
+  .landing_teacher{
+    padding-top: 70px;
+    padding-bottom: 50px;
+    margin-bottom: 40px;
+  }
+  .teacher_extra_logo{
+    position: absolute;
+    bottom: -60px;
+    right: -10px;
+    width: 200px;
+  }
+}

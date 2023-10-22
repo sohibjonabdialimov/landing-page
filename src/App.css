@@ -3,15 +3,15 @@
   padding: 0;
   box-sizing: border-box;
 }
-img{
+img {
   object-fit: cover;
 }
-html, body{
+html,
+body {
   scroll-behavior: smooth;
 }
 .common_title {
-  color: 
-  rgba(20, 0, 255, 1);
+  color: rgba(20, 0, 255, 1);
   font-size: 40px;
   font-weight: 700;
   line-height: 47px;
@@ -25,12 +25,12 @@ html, body{
   position: relative;
   padding-left: 20px;
 }
-.common_text span{
+.common_text span {
   font-weight: 800;
   color: rgba(20, 0, 255, 1);
   font-size: 26px;
 }
-.common_text::after{
+.common_text::after {
   content: "";
   position: absolute;
   width: 3px;
@@ -69,6 +69,9 @@ html, body{
   gap: 15px;
   cursor: pointer;
 }
+.common_btn_wrap img{
+  width: 10px;
+}
 .common_btn {
   outline: none;
   border: none;
@@ -77,8 +80,46 @@ html, body{
   line-height: 24px;
   text-align: center;
 }
-@media (max-width: 600px){
+@media (max-width: 600px) {
   .landing_page {
     padding: 1px;
+  }
+  .landing_card {
+    padding: 30px 25px 50px 25px;
+  }
+  .common_btn {
+    font-size: 15px;
+    line-height: 18px;
+  }
+  .common_btn_wrap {
+    background-color: rgba(20, 0, 255, 1);
+    box-shadow: 5px 5px 5px rgba(3, 116, 76, 0.25);
+    display: flex;
+    align-items: center;
+    width: 106px;
+    height: 36px;
+    justify-content: center;
+    gap: 15px;
+  }
+  .common_btn {
+    font-size: 14px;
+    line-height: 16px;
+  }
+  .common_btn_wrap img{
+    width: 6px;
+  }
+  .common_title {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+  }
+  .common_text {
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+  }
+  .common_text span {
+    font-weight: 800;
+    font-size: 15.5px;
   }
 }

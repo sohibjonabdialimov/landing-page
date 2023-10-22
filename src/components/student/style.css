@@ -54,3 +54,45 @@
 .landing_student_desc p{
   margin-bottom: 50px;
 }
+
+@media (max-width: 1000px){
+  .landing_student_content{
+    display: grid;
+    grid-template-areas: "wrap1" "wrap2";
+    align-items: center;
+    gap: 90px;
+  }
+  .landing_student_desc{
+    width: 100%;
+    grid-area: wrap1;
+    position: relative;
+  }
+  .landing_student_imgs{
+   width: 100%;
+  }
+  .landing_student{
+    padding-top: 150px;
+    padding-bottom: 100px;
+    margin-bottom: 30px;
+  }
+  .extra_logo{
+    top: 0;
+    right: 20px;
+    width: 300px;
+  }
+}
+@media (max-width: 600px){
+  .landing_student_content{
+    gap: 50px;
+  }
+  .landing_student{
+    padding-top: 70px;
+    padding-bottom: 50px;
+    margin-bottom: 40px;
+  }
+  .extra_logo{
+    top: 0;
+    right: 20px;
+    width: 140px;
+  }
+}

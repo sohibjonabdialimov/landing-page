@@ -27,7 +27,7 @@ const Student = () => {
             <span>ilmlar.com</span> ta'lim platformasi, masofaviy ta'lim olishni istaganlar uchun to'g'ri tanlov. Siz bu platformada, barcha fanlar bo'yicha video kurslarni topishingiz mumkin. O'zingiz uchun qulay vaqtda va qulay joyda ta'lim oling.
           </p>
           <div className="common_btn_wrap">
-            <button className="common_btn">O’qituvchi</button>
+            <button className="common_btn">O’quvchi</button>
             <img src={arrow} alt="" />
           </div>
           <img className="big_square" src={big_square} alt="" />
